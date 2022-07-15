@@ -23,7 +23,14 @@
     "rules": {
         "import/prefer-default-export": "off",
         "no-undef": "off",
-        "import/extensions": ["error", "ignorePackages", {
+        "indent": [
+            "error",
+            4
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
                 "js": "never",
                 "jsx": "never",
                 "ts": "never",

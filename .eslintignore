@@ -1,2 +1,2 @@
-jest.config.ts
-babel.config.js
+/*.js
+dist
