@@ -1,4 +1,5 @@
 import express from 'express'
+import {Test} from '@/delivery/dto/test'
 
 const app = express()
 
@@ -7,3 +8,5 @@ app.get('/', (req: any, res: any) => {
 })
 
 app.listen(8085)
+
+const test: Test = new Test()
