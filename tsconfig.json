@@ -1,4 +1,7 @@
 {
+  "ts-node": {
+    "files": true
+  },
   "compilerOptions": {
     "target": "es2017",
     "lib": [
@@ -12,7 +15,7 @@
     "outDir": "./dist",
     "typeRoots": [
       "./node_modules/@types",
-      "./src/@types"
+      "./src/main/application/types"
     ],
     "resolveJsonModule": true,
     "allowJs": true,
@@ -31,7 +34,6 @@
     "src/**/*"
   ],
   "exclude": [
-    "node_modules",
-    "src/**/*.test.ts"
+    "node_modules"
   ]
 }

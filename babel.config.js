@@ -19,6 +19,9 @@ module.exports = {
         '@babel/plugin-transform-typescript'
     ],
     ignore: [
-        '**/*.test.ts'
+        '**/*.test.ts',
+        '**/*.step-definitions.ts',
+        '**/*.feature',
+        '*/test/**/*.json'
     ]
-}
+};
